@@ -1,0 +1,53 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 중간 디렉터리(x64\Debug\)에 다른 프로젝트(Bal - Pyo.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  Runge.cpp
+C:\Users\Persist\Desktop\Coding\Learning\Bal - Pyo\Bal - Pyo\Runge.cpp(24,45): warning C4244: '인수': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+C:\Users\Persist\Desktop\Coding\Learning\Bal - Pyo\Bal - Pyo\Runge.cpp(24,42): warning C4244: '인수': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+C:\Users\Persist\Desktop\Coding\Learning\Bal - Pyo\Bal - Pyo\Runge.cpp(37,49): warning C4244: '인수': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+C:\Users\Persist\Desktop\Coding\Learning\Bal - Pyo\Bal - Pyo\Runge.cpp(37,46): warning C4244: '인수': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+C:\Users\Persist\Desktop\Coding\Learning\Bal - Pyo\Bal - Pyo\Runge.cpp(53,45): warning C4244: '인수': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+C:\Users\Persist\Desktop\Coding\Learning\Bal - Pyo\Bal - Pyo\Runge.cpp(53,42): warning C4244: '인수': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+C:\Users\Persist\Desktop\Coding\Learning\Bal - Pyo\Bal - Pyo\Runge.cpp(62,49): warning C4244: '인수': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+C:\Users\Persist\Desktop\Coding\Learning\Bal - Pyo\Bal - Pyo\Runge.cpp(62,46): warning C4244: '인수': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+C:\Users\Persist\Desktop\Coding\Learning\Bal - Pyo\Bal - Pyo\Runge.cpp(96,55): warning C4244: '인수': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+C:\Users\Persist\Desktop\Coding\Learning\Bal - Pyo\Bal - Pyo\Runge.cpp(96,52): warning C4244: '인수': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+  Bal - Pyo.vcxproj -> C:\Users\Persist\Desktop\Coding\Learning\Bal - Pyo\x64\Debug\Analysis Euler Method.exe
