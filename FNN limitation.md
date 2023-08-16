@@ -78,3 +78,4 @@ $a + \frac{b-a}{n}\cdot \lfloor \lambda n \rfloor \to a + (b-a)\cdot\lambda$.
 Due to f in continuous, 
 
 $f_n(t) - f(t) \to 0$.
+$\blacksquare$
