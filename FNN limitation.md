@@ -1,9 +1,4 @@
 # Limitation of FNN: FNN can only present continuous function
-Question. There exist sequence of piecewise continuous functions pointwise converge to an arbitralily discontinuous function?
-
-Proposition. Any sequence of piecewise continuous functions can not uniform converge to an arbitralily discontinuous function.
-
-For prove this Proposition, we prove that
 
 Theorem 1: 
 
