@@ -79,3 +79,7 @@ Due to f in continuous,
 
 $f_n(t) - f(t) \to 0$.
 $\blacksquare$
+
+
+sequence of piecewise linear continuous functions이 f로 균등수렴하면 f는 연속함수이다.
+따라서 어떤 sequence of piecewise linear continuous functions으로도 discontinuous function에 대해 균등수렴시킬 수 없다.
