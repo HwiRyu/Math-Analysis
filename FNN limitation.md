@@ -73,7 +73,7 @@ $\forall \epsilon>0, \mathbb{N} =\lfloor\frac {1} {\epsilon} \rfloor \text{ then
 
 by Lemma 2, 
 
-$a + \frac{b-a}{n}\cdot \lfloor \lambda n \rfloor \to a + (b-a)\cdot\lambda$.
+$a + \frac{b-a}{n}\cdot \lfloor \lambda n \rfloor +1 \to a + (b-a)\cdot\lambda$.
 
 Due to f in continuous, 
 
