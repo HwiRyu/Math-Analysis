@@ -69,11 +69,11 @@ Proof of Lemma 2:
 
 $\frac{\lfloor ax \rfloor}{x} \leq a \leq \frac{\lfloor ax \rfloor +1}{x}$. Thus
 
-$\forall \epsilon>0, \mathbb{N} =\lfloor\frac {1} {\epsilon} \rfloor \text{ then } n \geq N => |a - \frac{\lfloor ax \rfloor}{x}| < \epsilon$.
+$\forall \epsilon>0, \mathbb{N} =\lfloor\frac {1} {\epsilon} \rfloor +1 \text{ then } n \geq N => |a - \frac{\lfloor ax \rfloor}{x}| < \epsilon$.
 
 by Lemma 2, 
 
-$a + \frac{b-a}{n}\cdot \lfloor \lambda n \rfloor +1 \to a + (b-a)\cdot\lambda$.
+$a + \frac{b-a}{n}\cdot \lfloor \lambda n \rfloor  \to a + (b-a)\cdot\lambda$.
 
 Due to f in continuous, 
 
