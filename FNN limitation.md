@@ -35,7 +35,7 @@ then $|{f_n(x)} - f|_{sup} \to 0$.
 As a result, there exists ${f_n(x)}$ that converges unifomly for any arbitrarily continuous function. 
 $\blacksquare$
 
-Lemma 1: There exists a sequence of piecewise continuous functions ${f_n(x)}$ that converges pointwise for any arbitrarily continuous function on $X$.
+Lemma 1: There exists a sequence of piecewise continuous functions ${f_n(x)}$ that converges pointwise for any arbitrarily continuous function on [a,b].
 
 Proof of Lemma 1:
 
