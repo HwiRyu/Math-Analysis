@@ -17,7 +17,7 @@ ${f_n(x)}$ satisfies next two property:
 
 1. ${\forall n \in \mathbb{N}, \exists g \text{ such that } |f_n| \leq g}$ because $f_n(x)$ is bounded.
 
-2. ${f_n(x)}$ is converges pointwise because $x \in X$ by lemma 1.
+2. ${f_n(x)}$ is converges pointwise because lemma 1.
 
 so we get
 
