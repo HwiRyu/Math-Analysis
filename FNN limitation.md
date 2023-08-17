@@ -1,4 +1,21 @@
 # Limitation of FNN: FNN can only present continuous function
+<!-- 
+Proposition: Continuous-Activation-funciton FNN can not approximate an arbitraliry function.
+
+FNN can present like function,
+we define function FNN as
+
+$a^0(x) = x(=input)$, 
+
+$a^k(x) = \sigma(W^k \cdot a^{k-1}(x) + b^k)$,
+($k \in \{1,2,...L\}$),
+
+$f_\theta(x) = W^L \cdot a^{L-1}(x) + b^L$ ( = output)
+
+then if $\sigma$ is continuous, $f_\theta(x)$ should be continuous function.
+and now, we show that -->
+
+# Limitation of FNN: FNN can only present continuous function
 
 Theorem 1: 
 
@@ -6,8 +23,10 @@ There exists a sequence of piecewise continuous functions ${f_n(x)}$ that conver
 
 Proof of Theorem 1
 
-Let X is bounded interval $X \subset \mathbb{R}$, ${f_n(x)}$ is piecewise continuous functions that satisfies Lemma 1. 
+Let X is bounded interval $X \subset \mathbb{R}$, 
 
+Consider an arbitrarily continuous function f(x) on $X$. 
+${f_n(x)}$ is piecewise continuous functions that satisfies Lemma 1. 
 
 Consider an arbitrarily continuous function f(x) on $X$. f(x) is Riemann-integrable because f is continuous on bounded interval, and bounded because f define on compact set. This property extends to the sequence ${f_n(x)}$. Thus, ${f_n(x)}$ is Riemann-integrable. Therefore ${f_n(x)}$ is Lebesgue-integrable functions.
 
@@ -27,8 +46,24 @@ $\int_X |{f_n(x)} - f| \geq |{f_n(x)} - f|_{sup} = sup[|{f_n(x)} - f| : x \in X]
 
 then $|{f_n(x)} - f|_{sup} \to 0$.
 
-As a result, there exists ${f_n(x)}$ that converges unifomly for any arbitrarily continuous function. 
+As a result, there exists ${f_n(x)}$ that converges unifomly for any arbitrarily continuous function.
+
+
 $\blacksquare$
+
+Another Proof of Theorem 1
+
+Let X is bounded interval $X \subset \mathbb{R}$, 
+
+Consider an arbitrarily continuous function f(x) on $X$. 
+${f_n(x)}$ is piecewise continuous functions that satisfies Lemma 1. Then f(x) and ${f_n(x)}$ is Measurable Function.
+
+We aleady know converges ${f_n(x)}$ converges a.e. f(x) because Lemma 1.
+By Egorov's Theorem, f(x) and ${f_n(x)}$ is Measurable Function, and ${f_n(x)}$ converges a.e. f(x), thus ${f_n(x)}$ converges a.u. f(x)
+
+$\blacksquare$
+
+
 
 Lemma 1: There exists a sequence of piecewise continuous functions ${f_n(x)}$ that converges pointwise for any arbitrarily continuous function on [a,b].
 
