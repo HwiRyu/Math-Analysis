@@ -1,10 +1,10 @@
 # Limitation of FNN: FNN can only present continuous function
 
-Theorem 1: 
+## Theorem 1: 
 
 There exists a sequence of piecewise continuous functions ${f_n(x)}$ that converges uniformly for any arbitrarily continuous function on $X$.
 
-Proof of Theorem using Lebesgue's dominated convergence theorem(Error):
+## Proof of Theorem using Lebesgue's dominated convergence theorem(Error):
 
 Let X is bounded interval $X \subset \mathbb{R}$, 
 
@@ -35,7 +35,7 @@ As a result, there exists ${f_n(x)}$ that converges unifomly for any arbitrarily
 
 $\blacksquare$
 
-Proof of Theorem using Arzelà–Ascoli Theorem:
+## Proof of Theorem using Arzelà–Ascoli Theorem:
 
 Let X is bounded interval $X \subset \mathbb{R}$, 
 
@@ -55,9 +55,9 @@ $\blacksquare$
 
 
 
-Lemma 1: There exists a sequence of piecewise continuous functions ${f_n(x)}$ that converges pointwise for any arbitrarily continuous function on [a,b].
+## Lemma 1: There exists a sequence of piecewise continuous functions ${f_n(x)}$ that converges pointwise for any arbitrarily continuous function on [a,b].
 
-Proof of Lemma 1:
+## Proof of Lemma 1:
 
 For arbitrarily continuous function f, let define $f_n(x)$:
 
