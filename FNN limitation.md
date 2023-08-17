@@ -34,19 +34,6 @@ As a result, there exists ${f_n(x)}$ that converges unifomly for any arbitrarily
 
 $\blacksquare$
 
-Another Proof of Theorem 1
-
-Let X is bounded interval $X \subset \mathbb{R}$, 
-
-Consider an arbitrarily continuous function f(x) on $X$. 
-${f_n(x)}$ is piecewise continuous functions that satisfies Lemma 1. Then f(x) and ${f_n(x)}$ is Measurable Function.
-
-We aleady know converges ${f_n(x)}$ converges a.e. f(x) because Lemma 1.
-By Egorov's Theorem, f(x) and ${f_n(x)}$ is Measurable Function, and ${f_n(x)}$ converges a.e. f(x), thus ${f_n(x)}$ converges a.u. f(x)
-
-$\blacksquare$
-
-
 
 Lemma 1: There exists a sequence of piecewise continuous functions ${f_n(x)}$ that converges pointwise for any arbitrarily continuous function on [a,b].
 
