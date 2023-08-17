@@ -4,7 +4,7 @@ Theorem 1:
 
 There exists a sequence of piecewise continuous functions ${f_n(x)}$ that converges uniformly for any arbitrarily continuous function on $X$.
 
-Proof of Theorem 1
+Proof of Theorem using Lebesgue's dominated convergence theorem(Error):
 
 Let X is bounded interval $X \subset \mathbb{R}$, 
 
@@ -27,12 +27,32 @@ by Lebesgue's dominated convergence theorem. Now we use this,
 
 $\int_X |{f_n(x)} - f| \geq |{f_n(x)} - f|_{sup} = sup[|{f_n(x)} - f| : x \in X]$
 
+(error: Why $\int_X |{f_n(x)} - f| \geq |{f_n(x)} - f|_{sup}$?)
+
 then $|{f_n(x)} - f|_{sup} \to 0$.
 
 As a result, there exists ${f_n(x)}$ that converges unifomly for any arbitrarily continuous function.
 
+$\blacksquare$
+
+Proof of Theorem using :
+
+Let X is bounded interval $X \subset \mathbb{R}$, 
+
+Consider an arbitrarily continuous function f(x) on $X$. 
+${f_n(x)}$ is piecewise continuous functions that satisfies Lemma 1. 
+
+Consider an arbitrarily continuous function f(x) on $X$. f(x) is Riemann-integrable because f is continuous on bounded interval, and bounded because f define on compact set. This property extends to the sequence ${f_n(x)}$.
+
+Due to $f_n(x)$ is continous in $X$ and $f_n(x)$ is define on compact set, $f_n(x)$ is uniformly continuous by Heine–Cantor theorem.
+
+$f_n(x)$ is uniformly bounded and uniformly continuous, thus $f_n(x)$ has a uniformly convergent subsequence by Arzelà–Ascoli. We call this subsequene $g_n(x)$. Then $g_n(x)$ converge unifomly to $f(x)$ because $f_n(x)$ is pointwise converge to $f(x)$.(Real?)
+
+As a result, any arbitary continuous function $f(x)$ has a sequence of piecewise continuous functions that converges uniformly.
 
 $\blacksquare$
+
+
 
 
 Lemma 1: There exists a sequence of piecewise continuous functions ${f_n(x)}$ that converges pointwise for any arbitrarily continuous function on [a,b].
