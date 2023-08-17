@@ -35,7 +35,7 @@ As a result, there exists ${f_n(x)}$ that converges unifomly for any arbitrarily
 
 $\blacksquare$
 
-Proof of Theorem using :
+Proof of Theorem using Arzelà–Ascoli Theorem:
 
 Let X is bounded interval $X \subset \mathbb{R}$, 
 
@@ -46,7 +46,7 @@ Consider an arbitrarily continuous function f(x) on $X$. f(x) is Riemann-integra
 
 Due to $f_n(x)$ is continous in $X$ and $f_n(x)$ is define on compact set, $f_n(x)$ is uniformly continuous by Heine–Cantor theorem.
 
-$f_n(x)$ is uniformly bounded and uniformly continuous, thus $f_n(x)$ has a uniformly convergent subsequence by Arzelà–Ascoli. We call this subsequene $g_n(x)$. Then $g_n(x)$ converge unifomly to $f(x)$ because $f_n(x)$ is pointwise converge to $f(x)$.(Real?)
+$f_n(x)$ is uniformly bounded and uniformly continuous, thus $f_n(x)$ has a uniformly convergent subsequence by Arzelà–Ascoli Theorem. We call this subsequene $g_n(x)$. Then $g_n(x)$ converge unifomly to $f(x)$ because $f_n(x)$ is pointwise converge to $f(x)$.(Real?)
 
 As a result, any arbitary continuous function $f(x)$ has a sequence of piecewise continuous functions that converges uniformly.
 
