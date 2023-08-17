@@ -1,21 +1,4 @@
 # Limitation of FNN: FNN can only present continuous function
-<!-- 
-Proposition: Continuous-Activation-funciton FNN can not approximate an arbitraliry function.
-
-FNN can present like function,
-we define function FNN as
-
-$a^0(x) = x(=input)$, 
-
-$a^k(x) = \sigma(W^k \cdot a^{k-1}(x) + b^k)$,
-($k \in \{1,2,...L\}$),
-
-$f_\theta(x) = W^L \cdot a^{L-1}(x) + b^L$ ( = output)
-
-then if $\sigma$ is continuous, $f_\theta(x)$ should be continuous function.
-and now, we show that -->
-
-# Limitation of FNN: FNN can only present continuous function
 
 Theorem 1: 
 
