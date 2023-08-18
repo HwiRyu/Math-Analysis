@@ -55,7 +55,8 @@ $\blacksquare$
 
 
 
-## Lemma 1: There exists a sequence of piecewise continuous functions ${f_n(x)}$ that converges pointwise for any arbitrarily continuous function on [a,b].
+## Lemma 1: 
+There exists a sequence of piecewise continuous functions ${f_n(x)}$ that converges pointwise for any arbitrarily continuous function on [a,b].
 
 ## Proof of Lemma 1:
 
