@@ -32,7 +32,6 @@ $\int_X |{f_n(x)} - f| \geq |{f_n(x)} - f|_{sup} = sup[|{f_n(x)} - f| : x \in X]
 then $|{f_n(x)} - f|_{sup} \to 0$.
 
 As a result, there exists ${f_n(x)}$ that converges unifomly for any arbitrarily continuous function.
-
 $\blacksquare$
 
 ## Proof of Theorem using Arzelà–Ascoli Theorem:
@@ -49,7 +48,6 @@ Due to $f_n(x)$ is continous in $X$ and $f_n(x)$ is define on compact set, $f_n(
 $f_n(x)$ is uniformly bounded and uniformly continuous, thus $f_n(x)$ has a uniformly convergent subsequence by Arzelà–Ascoli Theorem. We call this subsequene $g_n(x)$. Then $g_n(x)$ converge unifomly to $f(x)$ because $f_n(x)$ is pointwise converge to $f(x)$.(Real?)
 
 As a result, any arbitary continuous function $f(x)$ has a sequence of piecewise continuous functions that converges uniformly.
-
 $\blacksquare$
 
 
