@@ -11,7 +11,7 @@ Let X is bounded interval $X \subset \mathbb{R}$,
 Consider an arbitrarily continuous function f(x) on $X$. 
 ${f_n(x)}$ is piecewise continuous functions that satisfies Lemma 1. 
 
-Consider an arbitrarily continuous function f(x) on $X$. f(x) is Riemann-integrable because f is continuous on bounded interval, and bounded because f define on compact set. This property extends to the sequence ${f_n(x)}$. Thus, ${f_n(x)}$ is Riemann-integrable. Therefore ${f_n(x)}$ is Lebesgue-integrable functions.
+f(x) is Riemann-integrable because f is continuous on bounded interval, and bounded because f define on compact set. This property extends to the sequence ${f_n(x)}$. Thus, ${f_n(x)}$ is Riemann-integrable. Therefore ${f_n(x)}$ is Lebesgue-integrable functions.
 
 ${f_n(x)}$ satisfies next two property:
 
@@ -42,7 +42,7 @@ Let X is bounded interval $X \subset \mathbb{R}$,
 Consider an arbitrarily continuous function f(x) on $X$. 
 ${f_n(x)}$ is piecewise continuous functions that satisfies Lemma 1. 
 
-Consider an arbitrarily continuous function f(x) on $X$. f(x) is Riemann-integrable because f is continuous on bounded interval, and bounded because f define on compact set. This property extends to the sequence ${f_n(x)}$.
+f(x) is Riemann-integrable because f is continuous on bounded interval, and bounded because f define on compact set. This property extends to the sequence ${f_n(x)}$.
 
 Due to $f_n(x)$ is continous in $X$ and $f_n(x)$ is define on compact set, $f_n(x)$ is uniformly continuous by Heine–Cantor theorem.
 
