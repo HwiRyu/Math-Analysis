@@ -107,3 +107,9 @@ width를 충분히 크게 잡아 실제 함수와 근사함수의 오차의 상�
 하지만, Activation function으로 $\sigma(x) = x^2$ 와 같은 함수를 사용하면, 무한히 큰 depth에 대해 어떤 구간에 대해 $f_n(x)$이 균등수렴하지 않는 함수가 되므로,
 Activation function으로 적절한 함수를 사용해야만 한다.
 
+어떤 piecewise linear continuous function으로 임의의 discontinuous function에 converge pointwise할 수는 있지만,
+당연히 converge uniformly는 안된다.
+
+따라서 discontinuous function에 converge uniformly하려면 sequence of discontinuous functions이 필요하다.
+
+그런데 uniform과 pointwise에서의 실무적인 차이는 무엇일까?
