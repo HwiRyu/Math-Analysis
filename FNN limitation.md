@@ -103,10 +103,6 @@ sequence of piecewise linear continuous functions이 f로 균등수렴하면 f�
 또, 어떤 연속함수에 대해 균등수렴하는 piecewise linear 함수열이 존재하고, FNN으로 이런 piecewise linear를 구성할 수 있으므로,
 width를 충분히 크게 잡아 실제 함수와 근사함수의 오차의 상한을 원하는 만큼 줄일 수 있다.
 
-또, Relu FNN에서 depth를 아무리 늘려도 신경망 $f_n(x)$은 어떤 균등수렴하는 함수열이 될 수 있다.
-하지만, Activation function으로 $\sigma(x) = x^2$ 와 같은 함수를 사용하면, 무한히 큰 depth에 대해 어떤 구간에 대해 $f_n(x)$이 균등수렴하지 않는 함수가 되므로,
-Activation function으로 적절한 함수를 사용해야만 한다.
-
 어떤 piecewise linear continuous function으로 임의의 discontinuous function에 converge pointwise할 수는 있지만,
 당연히 converge uniformly는 안된다.
 
