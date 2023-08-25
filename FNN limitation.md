@@ -109,3 +109,7 @@ width를 충분히 크게 잡아 실제 함수와 근사함수의 오차의 상�
 따라서 discontinuous function에 converge uniformly하려면 sequence of discontinuous functions이 필요하다.
 
 그런데 uniform과 pointwise에서의 실무적인 차이는 무엇일까?
+
+
+Uniform과 pointwise의 차이를 밝혀야 할 이유를 모르겠다.
+일단 덮어둔다.
