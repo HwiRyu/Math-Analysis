@@ -8,6 +8,60 @@ Then there exist $ε>0$ such that $f$ is convex on $S$ = $[x:\| x - \alpha \| \l
 
 ## Proof: 
 
+First, $∇ f(\alpha) = lim_{h → 0} \frac {f(\alpha + h)-f(\alpha)}{h} = 0$.
+(Because if $h<0, \frac {f(\alpha + h)-f(\alpha)}{h} <0$ by 2), if $h>0, \frac {f(\alpha + h)-f(\alpha)}{h}>0$ and by 2), due to $f$ is differentiable on $X$.) ...(2)
+
+Second, Due to definition of second derivative, we can express
+$∇^2 f(\alpha) = lim_{h → 0} \frac {f(\alpha + h) + f(\alpha - h)-2f(\alpha)}{h^2}$ (Due to 3), $∇^2 f(\alpha)$ exist.)
+
+2) $<=>$ for all $x \in X, f(\alpha) < f(x)$. Thus
+$∇^2 f(\alpha) = lim_{h → 0} \frac {f(\alpha + h) + f(\alpha - h)-2f(\alpha)}{h^2} \geq 0$.
+
+Now, ETS that near $\alpha$, $∇^2 f(x) \geq 0$ .
+
+To prove this by contradiction, Assume following statement is True:
+
+For all $ε>0$, there exist $x \in S = [x: 0< \| x - \alpha \| \leq ε] \text{ such that } f(x)$ is non-convex. ...(3)
+
+This statement is false because:
+
+First, we fix $ε>0$, and let choose $ε_0 = inf[\|x-\alpha\| : x \in S \text{ and } ∇^2f(x)<0]$.
+
+if $ε_0 ≠ 0$, then (3) is contradiction in $ε = ε_0$. Therefore, we see when $ε_0 = 0$.
+
+if $ε_0 = 0$ and $∇^2 f(\alpha) > 0$, then $ε_0$ is limit point of $[\|x-\alpha\| : x \in S \text{ and } ∇^2f(x)<0]$.
+
+Thus there exists sequence $\{x_n\}$ in $S$ that converges to $\alpha$.
+
+Then,
+$∇^2 f(\alpha) = lim_{h → 0} \frac {f(\alpha + h) + f(\alpha - h)-2f(\alpha)}{h^2}$
+
+$<=>$ For all $ε>0$ there exist $\delta>0$ such that
+$\|h\|<\delta => \|∇^2 f(\alpha) -\frac {f(\alpha + h) + f(\alpha - h)-2f(\alpha)}{h^2}\| < ε$. ...(4)
+
+Due to $x_n \to \alpha$,
+Choose $\delta$ s.t (4), then
+there exist $N \in \text{N}$ such that $n \geq N => \|x_n - \alpha \| < \delta$. ...(5)
+
+By (4) and (5), consequently
+For all $ε>0$ there exist $N \in \text{N}$ such that
+$n \geq N => \|∇^2 f(\alpha) -\frac {f(x_n) + f(2\alpha - x_n)-2f(\alpha)}{(x_n - \alpha)^2}\| < ε$. ...(6)
+
+Due to $∇^2 f(\alpha) >0$ in this case, (6) is false when $ε = ∇^2 f(\alpha)$, thus (6) is false.
+
+if $ε_0 = 0$ and $∇^2 f(\alpha) = 0$, then $ε_0$ is limit point of $\{\|x-\alpha\| : x \in S\}$, whatever.
+
+Due to $∇^2 f(\alpha) = 0$ and  $f(\alpha$) is local minimum,
+there exist $ε_2>0$ such that $\int_\alpha^{\alpha + ε_2} ∇^2 f(\alpha) > 0, \int_\alpha^{\alpha - ε_2} ∇^2 f(\alpha) > 0$.
+
+Therefore, there exist $ε_3>0$ such that $∇^2 f(\alpha) \geq 0$, this is contradiction with (3).
+
+Thus, Negation of (1) is false. Consequently, (1) is True.
+
+Proof end. □
+
+## 증명: 
+
 먼저 당연히, $∇ f(\alpha) = lim_{h → 0} \frac {f(\alpha + h)-f(\alpha)}{h} = 0$.
 (Because if $h<0, \frac {f(\alpha + h)-f(\alpha)}{h} <0$ by 2), if $h>0, \frac {f(\alpha + h)-f(\alpha)}{h}>0$ and by 2), due to $f$ is differentiable on $X$.) ...(2)
 
