@@ -1,36 +1,35 @@
 # Theorem: 
-Suppose function $f$ satisfies following property:
-1) $f$ is real continuous function on $R$.
-2) $f(\alpha)$ is unique local minimum of $f$ on $X$. 
-3) $f$ is twice differentiable on $X$.
+Suppose a function $f$ satisfies the following properties:
 
-Then there exist $ε>0$ such that $f$ is convex on $S$ = $[x:\| x - \alpha \| \leq ε]$ ...(1)
+1. $f$ is a real continuous function on $\mathbb{R}$.
+2. $f(\alpha)$ is the unique local minimum of $f$ on $X$.
+3. $f$ is twice differentiable on $X$.
+4. $\nabla^2 f(\alpha) ≠ 0$.
+
+Then there exists $ε>0$ such that $f$ is convex on $S = [x : | x - \alpha | \leq ε]$ ...(1)
 
 ## Proof: 
 
-Due to definition of second derivative, we can express
-$∇^2 f(\alpha) = lim_{h → 0} \frac {f(\alpha + h) + f(\alpha - h)-2f(\alpha)}{h^2}$ (Due to 3), $∇^2 f(\alpha)$ exist.)
+Due to the definition of the second derivative, we can express $\nabla^2 f(\alpha) = \lim_{h \to 0} \frac {f(\alpha + h) + f(\alpha - h) - 2f(\alpha)}{h^2}$ (Due to 3), $∇^2 f(\alpha)$ exists.)
 
-2) $<=>$ for all $x \in X, f(\alpha) < f(x)$. Thus
-$∇^2 f(\alpha) = lim_{h → 0} \frac {f(\alpha + h) + f(\alpha - h)-2f(\alpha)}{h^2} \geq 0$.
+Property 2) $<=>$ for all $x \in X, f(\alpha) < f(x)$. Thus, $\nabla^2 f(\alpha) = \lim_{h \to 0} \frac {f(\alpha + h) + f(\alpha - h) - 2f(\alpha)}{h^2} \geq 0$.
 
-Now, ETS that near $\alpha$, $∇^2 f(x) \geq 0$ .
+Now, we aim to prove that near $\alpha$, $\nabla^2 f(x) \geq 0$.
 
-### To prove this by contradiction, Assume following statement is True:
+### To prove this by contradiction, assume the following statement is true:
 
 For all $ε>0$, there exist $x \in S = [x: 0< \| x - \alpha \| \leq ε] \text{ such that } f(x)$ is non-convex. ...(3)
-
 ### This statement is false because:
 
 First, we fix $ε>0$, and let choose $ε_0 = inf[\|x-\alpha\| : x \in S \text{ and } ∇^2f(x)<0]$.
 
 #### Case 1) $ε_0 ≠ 0$
-Then (3) is contradiction in $ε = ε_0$(Because $S$ is bounded below, there exist infimum.).
-Therefore, we see when $ε_0 = 0$
-#### Case 2) $ε_0 = 0$ and $∇^2 f(\alpha) > 0$
+
+Then (3) is a contradiction for $ε = ε_0$ (Because $S$ is bounded below, there exists an infimum.). Therefore, we see that when $ε_0 = 0$.
+#### Case 2) $ε_0 = 0$
 Then $ε_0$ is limit point of $T = [\|x-\alpha\| : x \in S \text{ and } ∇^2f(x)<0]$.
 
-Thus there exists sequence $\{x_n\}$ in $T' = [x : x \in S \text{ and } ∇^2f(x)<0]$ that converges to $\alpha$.
+Thus there exists a sequence $\{x_n\}$ in $T' = [x : x \in S \text{ and } ∇^2f(x)<0]$ that converges to $\alpha$.
 
 Then,
 $∇^2 f(\alpha) = lim_{h → 0} \frac {f(\alpha + h) + f(\alpha - h)-2f(\alpha)}{h^2}$
@@ -43,30 +42,10 @@ Choose $\delta$ such that (4) then
 there exist $N \in \text{N}$ such that $n \geq N => \|x_n - \alpha \| < \delta$. ...(5)
 
 By (4) and (5), consequently
-For all $ε>0$ there exist $N \in \text{N}$ such that
+For all $ε>0$ there exist $N \in \mathbb{N}$ such that
 $n \geq N => \|∇^2 f(\alpha) -\frac {f(x_n) + f(2\alpha - x_n)-2f(\alpha)}{(x_n - \alpha)^2}\| < ε$. ...(6)
 
-Because $∇^2 f(\alpha) >0$ in this case, (6) is false when $ε = ∇^2 f(\alpha)$. Thus (6) is false.
-
-#### Case 3) $ε_0 = 0$ and $∇^2 f(\alpha) = 0$, 
-Then $ε_0$ is limit point of $T = [\|x-\alpha\| : x \in S \text{ and } ∇^2f(x)<0]$.
-
-Due to $f(\alpha$) is unique local minimum,
-If $x>\alpha, \text{ then } ∇f(x) \geq 0$. (If not, this is contradiction with local minimum is unique in $X$.)
-If $x<\alpha, \text{ then } ∇f(x) \leq 0$.
-Therefore, $∇ f(\alpha) = lim_{h → 0} \frac {f(\alpha + h)-f(\alpha)}{h} = 0$. ...(7)
-
-In this case, we suppose $∇^2 f(\alpha) = 0$ and $inf T = [\|x-\alpha\| : x \in S \text{ and } ∇^2f(x)<0] =0$.
-
-
-
-
-there exist $ε_2>0$ such that 
-$\int_\alpha^{\alpha + ε_2} ∇^2 f(x) = ∇f(\alpha+ε_2)-∇f(\alpha) \geq 0,$ ...(7)
-$\int_{\alpha - ε_2}^{\alpha} ∇^2 f(x) = ∇f(\alpha)-∇f(\alpha-ε_2) \geq 0$. ...(8)
-(If, for all $ε_2>0$ $\int_\alpha^{\alpha + ε_2} ∇^2 f(x) = ∇f(\alpha+ε_2)-∇f(\alpha) < 0$, then this is contradiction with $f(\alpha)$ is local minimum. (8) is equal.)
-
-Therefore, there exist $ε_3>0$ such that $∇^2 f(\alpha) \geq 0$, this is contradiction with (3).
+By assumption 4),$∇^2 f(\alpha) >0$, (6) is false when $ε = ∇^2 f(\alpha)$. Therefore, (6) is false.
 
 Thus, Negation of (1) is false. Consequently, (1) is True.
 
