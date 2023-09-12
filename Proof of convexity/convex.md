@@ -21,11 +21,11 @@ Now, we aim to prove that near $\alpha$, $\nabla^2 f(x) \geq 0$.
 For all $ε>0$, there exist $x \in S = [x: 0< \| x - \alpha \| \leq ε] \text{ such that } f(x)$ is non-convex. ...(3)
 ### This statement is false because:
 
-First, we fix $ε>0$, and let choose $ε_0 = inf[\|x-\alpha\| : x \in S \text{ and } ∇^2f(x)<0]$.
+First, we fix $ε>0$, and let choose $ε_0 = inf[\|x-\alpha\| : x \in S \text{ and } ∇^2f(x)<0]$(Because $S$ is bounded below, there exists an infimum.).
 
 #### Case 1) $ε_0 ≠ 0$
 
-Then (3) is a contradiction for $ε = ε_0$ (Because $S$ is bounded below, there exists an infimum.). Therefore, we see that when $ε_0 = 0$.
+Then (3) is a contradiction for $ε = ε_0$. Therefore, we see that when $ε_0 = 0$.
 #### Case 2) $ε_0 = 0$
 Then $ε_0$ is limit point of $T = [\|x-\alpha\| : x \in S \text{ and } ∇^2f(x)<0]$.
 
