@@ -45,7 +45,7 @@ By (4) and (5), consequently
 For all $ε>0$ there exist $N \in \mathbb{N}$ such that
 $n \geq N => \|∇^2 f(\alpha) -\frac {f(x_n) + f(2\alpha - x_n)-2f(\alpha)}{(x_n - \alpha)^2}\| < ε$. ...(6)
 
-By assumption 4), $∇^2 f(\alpha) >0$, (6) is false when $ε = ∇^2 f(\alpha)$. Therefore, (6) is false.
+By assumption 4), $∇^2 f(\alpha) >0$, (6) is false for $ε = ∇^2 f(\alpha)$. Therefore, (6) is false.
 
 Thus, Negation of (1) is false. Consequently, (1) is True.
 
