@@ -6,7 +6,7 @@ Suppose a function $f$ satisfies the following properties:
 3. $f$ is twice differentiable on $X$.
 4. $\nabla^2 f(\alpha) ≠ 0$.
 
-Then there exists $ε>0$ such that $f$ is convex on $S = [x : | x - \alpha | \leq ε]$ ...(1)
+Then there exists $ε>0$ such that $f$ is convex on $S = [x : \| x - \alpha \| \leq ε]$ ...(1)
 
 ## Proof: 
 
