@@ -29,9 +29,9 @@ First, we fix $ε>0$, and let choose $ε_0 = inf[\|x-\alpha\| : x \in S \text{ a
 
 if $ε_0 ≠ 0$, then (3) is contradiction in $ε = ε_0$. Therefore, we see when $ε_0 = 0$.
 
-if $ε_0 = 0$ and $∇^2 f(\alpha) > 0$, then $ε_0$ is limit point of $[\|x-\alpha\| : x \in S \text{ and } ∇^2f(x)<0]$.
+if $ε_0 = 0$ and $∇^2 f(\alpha) > 0$, then $ε_0$ is limit point of $T = [\|x-\alpha\| : x \in S \text{ and } ∇^2f(x)<0]$.
 
-Thus there exists sequence $\{x_n\}$ in $S$ that converges to $\alpha$.
+Thus there exists sequence $\{x_n\}$ in $T' = [x : x \in S \text{ and } ∇^2f(x)<0]$ that converges to $\alpha$.
 
 Then,
 $∇^2 f(\alpha) = lim_{h → 0} \frac {f(\alpha + h) + f(\alpha - h)-2f(\alpha)}{h^2}$
