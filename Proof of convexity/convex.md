@@ -5,7 +5,7 @@ Suppose a function $f$ satisfies the following properties:
 2. $f(\alpha)$ is the unique local minimum of $f$ on $X$.
 3. $f$ is twice differentiable on $X$.
 4. $\nabla^2 f(x)$ is continuous at $\alpha$.
-5. 
+
 Then there exists $ε>0$ such that $f$ is convex on $S = [x : | x - \alpha | \leq ε]$ ...(1)
 
 ## Proof: 
