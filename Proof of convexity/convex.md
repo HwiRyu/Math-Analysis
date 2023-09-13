@@ -4,7 +4,7 @@ Suppose a function $f$ satisfies the following properties:
 1. $f$ is a real continuous function on $\mathbb{R}$.
 2. $f(\alpha)$ is the unique local minimum of $f$ on $X$.
 3. $f$ is twice differentiable on $X$.
-4. $\nabla^2 f(x)$ is continuous at $\alpha$.
+4. $\nabla^2 f(x)$ is continuous at $\alpha$ and $\nabla^2 f(\alpha)$ > 0.
 
 Then there exists $ε>0$ such that $f$ is convex on $S = [x : | x - \alpha | \leq ε]$ ...(1)
 
@@ -27,7 +27,7 @@ Then (3) is a contradiction for $ε = ε_0$ (Because $S$ is bounded below, there
 
 Then $ε_0$ is limit point of $T = [\|x-\alpha\| : x \in S \text{ and } ∇^2f(x)<0]$.
 
-#### Case 2) $ε_0 = 0$  $\nabla^2 f(\alpha)>0$
+#### Case 2) $ε_0 = 0$ and  $\nabla^2 f(\alpha)>0$
 
 Due to $ε_0$ is limit point of $T$, 
 
@@ -46,12 +46,6 @@ For all $ε>0$ there exist $N \in \mathbb{N}$ such that
 $n \geq N => \|∇^2 f(\alpha) -∇^2f(x_n)\| < ε$. ...(6)
 
 By assumption $∇^2 f(\alpha) >0$, (6) is false when $ε = ∇^2 f(\alpha)$(Because for all n, $∇^2f(x_n) < 0$). Therefore, (6) is false.
-
-
-#### Case 3) $ε_0 = 0$ and $\nabla^2 f(\alpha)=0$
-
-
-
 
 
 ## Conclusion
