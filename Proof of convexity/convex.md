@@ -10,9 +10,8 @@ Then there exists $ε>0$ such that $f$ is convex on $S = [x : | x - \alpha | \le
 
 ## Proof: 
 
-Due to the definition of the second derivative, we can express $\nabla^2 f(\alpha) = \lim_{h \to 0} \frac {f(\alpha + h) + f(\alpha - h) - 2f(\alpha)}{h^2}$ (Due to 3), $∇^2 f(\alpha)$ exists.)
-
-Property 2) $<=>$ for all $x \in X, f(\alpha) < f(x)$. Thus, $\nabla^2 f(\alpha) = \lim_{h \to 0} \frac {f(\alpha + h) + f(\alpha - h) - 2f(\alpha)}{h^2} \geq 0$.
+By Definition of the second derivative, we can express $\nabla^2 f(\alpha) = \lim_{h \to 0} \frac {\nabla f(\alpha + h) - \nabla f(\alpha)}{h}$ (Due to 3), $∇^2 f(\alpha)$ exists.)
+Due to $\nabla f$ is monoton-increasing, $\nabla^2 f(\alpha) \geq 0$.
 
 Now, we aim to prove that near $\alpha$, $\nabla^2 f(x) \geq 0$.
 
