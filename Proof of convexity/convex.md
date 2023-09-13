@@ -29,7 +29,7 @@ Then $ε_0$ is limit point of $T = [\|x-\alpha\| : x \in S \text{ and } ∇^2f(x
 
 Thus there exists a sequence $\{x_n\}$ in $T' = [x : x \in S \text{ and } ∇^2f(x)<0]$ that converges to $\alpha$.
 
-If $\nabla^2 f(x)$ is continuous on $\alpha$
+If $\nabla^2 f(x)$ is continuous at $\alpha$
 $<=>$ For all $ε>0$ there exist $\delta>0$ such that
 $\|x-\alpha\|<\delta => \|∇^2 f(\alpha) -∇^2f(x)\| < ε$. ...(4)
 
