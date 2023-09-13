@@ -24,10 +24,14 @@ First, we fix $ε>0$, and let choose $ε_0 = inf[\|x-\alpha\| : x \in S \text{ a
 
 #### Case 1) $ε_0 ≠ 0$
 Then (3) is a contradiction for $ε = ε_0$ (Because $S$ is bounded below, there exists an infimum.). Therefore, we see that when $ε_0 = 0$.
-#### Case 2) $ε_0 = 0$  $\nabla^2 f(\alpha)>0$
+
 Then $ε_0$ is limit point of $T = [\|x-\alpha\| : x \in S \text{ and } ∇^2f(x)<0]$.
 
-Thus there exists a sequence $\{x_n\}$ in $T' = [x : x \in S \text{ and } ∇^2f(x)<0]$ that converges to $\alpha$.
+#### Case 2) $ε_0 = 0$  $\nabla^2 f(\alpha)>0$
+
+Due to $ε_0$ is limit point of $T$, 
+
+There exists a sequence $\{x_n\}$ in $T' = [x : x \in S \text{ and } ∇^2f(x)<0]$ that converges to $\alpha$.
 
 If $\nabla^2 f(x)$ is continuous at $\alpha$
 $<=>$ For all $ε>0$ there exist $\delta>0$ such that
