@@ -41,8 +41,8 @@ By (4) and (5), consequently
 For all $ε>0$ there exist $N \in \mathbb{N}$ such that
 $n \geq N => \|∇^2 f(\alpha) -∇^2f(x_n)\| < ε$. ...(6)
 
-By assumption $∇^2 f(\alpha) >0$, (6) is false when $ε = ∇^2 f(\alpha)$(Because for all n, $∇^2f(x_n) < 0$.)Therefore, (6) is false.
-(In this case, Property 4) is not require.)
+By assumption $∇^2 f(\alpha) >0$, (6) is false when $ε = ∇^2 f(\alpha)$(Because for all n, $∇^2f(x_n) < 0$). Therefore, (6) is false.
+
 
 #### Case 3) $ε_0 = 0$ and $\nabla^2 f(\alpha)=0$
 
