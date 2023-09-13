@@ -11,7 +11,7 @@ Then there exists $ε>0$ such that $f$ is convex on $S = [x : | x - \alpha | \le
 ## Proof: 
 
 By Definition of the second derivative, we can express $\nabla^2 f(\alpha) = \lim_{h \to 0} \frac {\nabla f(\alpha + h) - \nabla f(\alpha)}{h}$ (Due to 3), $∇^2 f(\alpha)$ exists.)
-Due to $\nabla f$ is monoton-increasing, $\nabla^2 f(\alpha) \geq 0$.
+Due to $\nabla f$ is monotone increasing, $\nabla^2 f(\alpha) \geq 0$.
 
 Now, we aim to prove that near $\alpha$, $\nabla^2 f(x) \geq 0$.
 
