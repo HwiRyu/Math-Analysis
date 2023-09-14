@@ -3,7 +3,7 @@ Suppose a function $f$ satisfies the following properties:
 
 1. $f$ is a real continuous function on $\mathbb{R}$.
 2. $f(\alpha)$ is the unique local minimum of $f$ on $X$.
-3. $f$ is twice differentiable on $X$ and $∇^2f(x)$ continuous on $X$
+3. $f$ is twice differentiable on $X$ and $∇^2f(x)$ continuous on $X$.
 
 Then there exists $ε>0$ such that $f$ is convex on $S = [x : | x - \alpha | \leq ε]$ ...(1)
 
@@ -31,8 +31,6 @@ Then $ε_0$ is limit point of $T = [\|x-\alpha\| : x \in S \text{ and } ∇^2f(x
 Due to $ε_0$ is limit point of $T$, 
 
 There exists a sequence $\{x_n\}$ in $T' = [x : x \in S \text{ and } ∇^2f(x)<0]$ that converges to $\alpha$.
-
-$∇^2f(x)$ continuous on $X$
 
 If there exist $ε$ such that $S-T' = \emptyset$, then $\int_{\alpha - ε}^{\alpha + ε}∇^2 f(x) = \int_{T'}∇^2 f(x) < 0$.
 this is contradiction with near $\alpha, ∇ f(x)$ is monotone-increasing.
